@@ -1,0 +1,268 @@
+@keyframes name {
+	100% {
+		stroke-dashoffset: 0; 
+	}
+}
+
+/*#z {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	stroke-width: 10;
+	animation: name 1s linear forwards;
+}
+
+#o {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	stroke-width: 20;
+	animation: name 1s linear forwards 1s;
+}
+
+#i {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	stroke-width: 20;
+	animation: name 1s linear forwards 1.5s;
+}
+
+#e {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	stroke-width: 18;
+	animation: name 2s linear forwards 1.8s;
+}*/
+
+/*#zz {
+	stroke-dasharray: 700;
+	stroke-dashoffset: 700;
+	stroke-width: 50;
+	animation: name 2.5s linear forwards 3s;
+}
+
+#hh {
+	stroke-dasharray: 800;
+	stroke-dashoffset: 800;
+	stroke-width: 50;
+	animation: name 1.2s linear forwards 4.2s;
+}*/
+
+html, body {
+	margin: 0px;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	font-family: "merienda", sans-serif;
+}
+
+.center_hor {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center_ver {
+	padding: 33.2% 0;
+}
+
+#l_block {
+	height: 50px;
+	width: 80px;
+}
+
+
+/*---------------Rotation of Blocks---------------*/
+.rotate {
+	animation: rotate-trans_down 2s forwards linear;
+/*	animation-iteration-count: 8;*/
+}
+
+@keyframes rotate-trans_down {
+	0% {
+		transform: rotate(0deg);
+	}
+	70% {
+		transform: rotate(2500deg);
+	}
+	90% {
+		transform: rotate(1080deg);
+	}
+	95% {
+/*		transition-delay: 1s;*/
+		transform: translate(0px,0px);
+	}
+	100% {
+		transform: translate(0px, 150px);
+	}
+}
+
+
+/*---------------About---------------*/
+/*#about {
+	background-color: lightblue;
+	width: 100%;
+	height: 100%;
+    background: linear-gradient(to right, lightblue, #FFF);
+    background: linear-gradient(90deg, lightblue 50%, #FFF 50%);
+}*/
+
+#about {
+	background-color: lightblue;
+	margin: 0;
+}
+
+h1 {
+	font-size: 90px;
+	display: block;
+	margin: 0;
+}
+
+#about_content {
+	margin: 75px 50px 0 50px;
+}
+
+
+#resume {
+	margin: 60px 0 0 325px;
+}
+
+#resume_p {
+	display: inline-block;
+}
+
+#res {
+	width: 35px;
+	height: 35px;
+}
+
+
+/*---------------Responsive Design---------------*/
+.row {
+  	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+	}
+	.col-lg-1 {
+		width: 8.33%;
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33.33%;
+	}
+	.col-lg-5 {
+		width: 41.66%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 58.33%;
+	}
+	.col-lg-8 {
+		width: 66.66%;
+	}
+	.col-lg-9 {
+		width: 74.99%;
+	}
+	.col-lg-10 {
+		width: 83.33%;
+	}
+	.col-lg-11 {
+		width: 91.66%;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float: left;
+  	}
+  	.col-md-1 {
+    	width: 8.33%;
+  	}
+  	.col-md-2 {
+    	width: 16.66%;
+  	}
+  	.col-md-3 {
+    	width: 25%;
+  	}
+  	.col-md-4 {
+    	width: 33.33%;
+  	}
+  	.col-md-5 {
+    	width: 41.66%;
+  	}
+  	.col-md-6 {
+    	width: 50%;
+  	}
+  	.col-md-7 {
+    	width: 58.33%;
+  	}
+  	.col-md-8 {
+    	width: 66.66%;
+  	}
+  	.col-md-9 {
+    	width: 74.99%;
+  	}
+  	.col-md-10 {
+    	width: 83.33%;
+  	}
+  	.col-md-11 {
+    	width: 91.66%;
+  	}
+  	.col-md-12 {
+    	width: 100%;
+  	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		float: left;
+	}
+	.col-sm-1 {
+		width: 8.33%;
+	}
+	.col-sm-2 {
+		width: 16.66%;
+	}
+	.col-sm-3 {
+		width: 25%;
+	}
+	.col-sm-4 {
+		width: 33.33%;
+	}
+	.col-sm-5 {
+		width: 41.66%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.col-sm-7 {
+		width: 58.33%;
+	}
+	.col-sm-8 {
+		width: 66.66%;
+	}
+	.col-sm-9 {
+		width: 74.99%;
+	}
+	.col-sm-10 {
+		width: 83.33%;
+	}
+	.col-sm-11 {
+		width: 91.66%;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+}

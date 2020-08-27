@@ -1,0 +1,54 @@
+pink:
+-fill:ffbed8
+-stroke: ff99cc
+
+blue
+-f:94d0ff
+-s:57a5db
+
+yellow
+-f:f9ffb4
+-s:ffdc1f
+
+purple
+-f:9999ff
+-s:4c53a4
+
+original
+blue:
+x = 529.2893 px
+y = 258.5786 px
+
+yellow:
+x = 741.4214 px
+y = 329.2893 px
+
+purple:
+x = 635.3553 px
+y = 470.7107 px
+
+pink:
+x = 493.934 px
+y = 506.066 px
+
+
+
+after (85 px)
+pink:
+x = 438.434 px
+y = 561.566 px
+
+blue
+x = 444.2893 px
+y = 173.5786 px
+
+yellow
+x = 826.4214 px
+y = 244.2893 px
+
+purple
+x = 705.3553 px
+y = 541.7107 px
+
+
+light blue: #add8e6
