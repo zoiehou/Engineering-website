@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(11, 10, 50);
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.btn_style {
+    border: none;
+    outline: 0;
+    background: #edf1f2;
+    border-radius: 2px;
+    width: 90px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_style:focus {
+    border: thin #c7d3d6 solid;
+    width: 90px;
+    height: 30px;
+    outline: 0 !important;
+}
+
